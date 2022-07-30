@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm /home/jose/.scripts/timep.log
+rm /home/jose/.config/bash-scripts/timep.log

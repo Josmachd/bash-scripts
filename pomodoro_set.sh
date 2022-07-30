@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ -f "/home/jose/.scripts/timep.log" ]; then
-    start=$(cat /home/jose/.scripts/timep.log)
+if [ -f "/home/jose/.config/bash-scripts/timep.log" ]; then
+    start=$(cat /home/jose/.config/bash-scripts/timep.log)
     curr=$(date +'%H:%M:%S')
     diff=$(( $(date -d "$curr" "+%s") - $(date -d "$start" "+%s") ))
     if [ "$diff" == "1500" ]; then
